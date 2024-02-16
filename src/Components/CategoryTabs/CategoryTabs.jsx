@@ -90,7 +90,7 @@ const CategoryTabs = () => {
                       <span className="add-btn" onClick={handleRemoveFromCart}>
                         -
                       </span>
-                      0
+                      {cartCount}
                       <span className="px-3" onClick={handleAddToCart}>
                         +
                       </span>
