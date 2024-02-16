@@ -1,0 +1,154 @@
+
+/* css for top header section starts */
+.header-container {
+  padding: 20px 0;
+  background-color: #000000;
+  color: white;
+}
+.header-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left h1 {
+  margin: 0;
+  align-items: center;
+  margin-right: auto; 
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  margin-left: left; 
+}
+
+.my-orders-button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: black; 
+  color: white; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart-container {
+  position: relative;
+}
+
+.cart-icon {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: #9e0202; 
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 12px;
+}
+/* css for top header section ends */
+
+/* css for top tab section starts */
+
+.react-tabs__tab {
+  color: #fff;
+  border: unset;
+  padding: 7px 20px
+}
+
+.react-tabs__tab-list {
+  border: unset;
+}
+
+.react-tabs__tab--selected {
+  color: red;
+  background-color: black;
+}
+
+.react-tabs__tab.react-tabs__tab--selected {
+  border-bottom: 2px solid red;
+  color: red;
+}
+
+.react-tabs__tab:focus:after {
+  position: unset;
+}
+
+.category-list {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.categoryList-wrper {
+  padding: 20px 0 70px;
+  color: #fff;
+}
+
+.main-head {
+  font-size: 22px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+
+.subtext {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.paraText {
+  font-size: 16px;
+  padding-bottom: 10px;
+  opacity: 0.8;
+}
+
+.add-btn {
+  background: #10a910;
+  border: none;
+  padding: 4px 30px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.para-subtext {
+  color: red;
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+
+.categoryImg {
+  display: flex;
+  align-items: center;
+}
+
+.categoryImg span {
+  padding-right: 20px;
+}
+
+.categoryImg img {
+  width: 130px;
+  height: 130px;
+  font-size: 16px;
+  opacity: 0.8;
+}
+.list-dot{
+ color: green;
+ margin-right: 10px;
+}
+.vegorNon {
+  width: 15px;
+  height: 14px;
+  font-size: 10px;
+  opacity: 0.8;
+}
+
+/* css for top tab section ends */
